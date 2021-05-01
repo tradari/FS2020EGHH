@@ -1,0 +1,8 @@
+<Project Version="2" Name="BournemouthAirport" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\df-airport-eghh-bournemouth.xml</Package>
+	</Packages>
+</Project>
+

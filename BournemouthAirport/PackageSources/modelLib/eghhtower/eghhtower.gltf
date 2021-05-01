@@ -1,0 +1,1605 @@
+{
+    "asset" : {
+        "extensions" : {
+            "ASOBO_normal_map_convention" : {
+                "tangent_space_convention" : "DirectX"
+            }
+        },
+        "generator" : "Extended Khronos glTF Blender I/O v1.0.0",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "ASOBO_normal_map_convention",
+        "ASOBO_tags",
+        "KHR_materials_clearcoat"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "matlib" : {
+                    "show_prefs" : 0,
+                    "lib_index" : 3,
+                    "filter" : 0,
+                    "cat_index" : -1,
+                    "all_materials" : [
+                        {
+                            "name" : "Template Image"
+                        },
+                        {
+                            "name" : "Template_double_sided"
+                        },
+                        {
+                            "name" : "template_Image_Triplanar"
+                        },
+                        {
+                            "name" : "template_all_trans_textures"
+                        },
+                        {
+                            "name" : "template_alpha_image"
+                        },
+                        {
+                            "name" : "template_alpha_image_color"
+                        },
+                        {
+                            "name" : "template_color"
+                        },
+                        {
+                            "name" : "template_converter"
+                        },
+                        {
+                            "name" : "template_dif_nor_spec"
+                        },
+                        {
+                            "name" : "template_image_apha_overlay"
+                        },
+                        {
+                            "name" : "template_image_procedural_blend"
+                        },
+                        {
+                            "name" : "template_image_procedural_overlay"
+                        },
+                        {
+                            "name" : "template_rgb>hsv"
+                        },
+                        {
+                            "name" : "template_vector"
+                        }
+                    ],
+                    "materials" : [
+                        {
+                            "name" : "Template Image",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "Template_double_sided",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_Image_Triplanar",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_all_trans_textures",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_alpha_image",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_alpha_image_color",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_color",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_converter",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_dif_nor_spec",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_image_apha_overlay",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_image_procedural_blend",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_image_procedural_overlay",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_rgb>hsv",
+                            "category" : ""
+                        },
+                        {
+                            "name" : "template_vector",
+                            "category" : ""
+                        }
+                    ],
+                    "mat_index" : 0
+                },
+                "glTF2ExportSettings" : {
+                    "export_apply" : 1,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_generate_guid" : 1,
+                    "export_texture_dir" : "../texture/",
+                    "export_xml" : 1,
+                    "export_xml_file" : "eghhtower",
+                    "use_selection" : 1
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane",
+            "rotation" : [
+                0.7059133648872375,
+                0,
+                0,
+                0.7082982063293457
+            ],
+            "scale" : [
+                0.6623972654342651,
+                0.6623972654342651,
+                0.6623972654342651
+            ],
+            "translation" : [
+                -0.00122012197971344,
+                -0.00985325500369072,
+                0.26193857192993164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "base",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extensions" : {
+                "ASOBO_tags" : {
+                    "tags" : [
+                        "Road"
+                    ],
+                    "Collision" : true
+                }
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_albedo_texture" : {
+                    "name" : "asphalt_02_diff_2k.png",
+                    "type" : "Image"
+                },
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_collision_material" : 1,
+                "msfs_road_material" : 1
+            },
+            "name" : "roof",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9083601236343384
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extras" : {
+                "msfs_material_mode" : 0,
+                "msfs_blend_mode" : 2,
+                "msfs_show_tint" : 0,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 0,
+                "msfs_show_metallic" : 0,
+                "msfs_show_normal" : 0,
+                "msfs_show_emissive" : 0,
+                "msfs_show_detail_albedo" : 0,
+                "msfs_show_detail_metallic" : 0,
+                "msfs_show_detail_normal" : 0,
+                "msfs_show_blend_mask" : 0,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 0,
+                "msfs_show_draworder" : 0,
+                "msfs_show_no_cast_shadow" : 0,
+                "msfs_show_double_sided" : 0,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 0,
+                "msfs_show_collision_material" : 0,
+                "msfs_show_road_material" : 0,
+                "msfs_show_ao_use_uv2" : 0,
+                "msfs_show_uv_clamp" : 0,
+                "msfs_show_alpha_cutoff" : 0,
+                "msfs_show_blend_threshold" : 0,
+                "msfs_show_wiper_mask" : 0,
+                "msfs_color_emissive_mix" : [
+                    40.46007537841797,
+                    40.46007537841797,
+                    40.46007537841797
+                ],
+                "msfs_color_albedo_mix" : [
+                    0.43232259154319763,
+                    0.43232259154319763,
+                    0.43232259154319763
+                ]
+            },
+            "name" : "glass",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.04752526059746742,
+                    0.06176534667611122,
+                    0.07214106619358063,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extensions" : {
+                "ASOBO_tags" : {
+                    "tags" : [
+                        "Road"
+                    ],
+                    "Collision" : true
+                }
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_albedo_texture" : {
+                    "name" : "ulmlbijg_2K_Albedo.jpg",
+                    "type" : "Image"
+                },
+                "msfs_metallic_texture" : {
+                    "name" : "ulmlbijg_2K_Roughness.png",
+                    "type" : "Image"
+                },
+                "msfs_normal_texture" : {
+                    "name" : "ulmlbijg_2K_Normal.png",
+                    "type" : "Image"
+                },
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_collision_material" : 1,
+                "msfs_road_material" : 1
+            },
+            "name" : "brick",
+            "normalTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 2,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "emissiveTexture" : {
+                "index" : 4,
+                "texCoord" : 0
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_albedo_texture" : {
+                    "name" : "scksebop_2K_Albedo.png",
+                    "type" : "Image"
+                },
+                "msfs_metallic_texture" : {
+                    "name" : "scksebop_2K_Roughness.png",
+                    "type" : "Image"
+                },
+                "msfs_normal_texture" : {
+                    "name" : "scksebop_2K_Normal.png",
+                    "type" : "Image"
+                },
+                "msfs_emissive_texture" : {
+                    "name" : "scksebop_2K_Gloss.png",
+                    "type" : "Image"
+                },
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1
+            },
+            "name" : "handrail",
+            "normalTexture" : {
+                "index" : 5,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 6,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 6,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extensions" : {
+                "KHR_materials_clearcoat" : {
+                    "clearcoatFactor" : 0.38906753063201904,
+                    "clearcoatRoughnessFactor" : 0.029999999329447746
+                },
+                "ASOBO_tags" : {
+                    "tags" : [
+                        "Road"
+                    ],
+                    "Collision" : true
+                }
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_color_emissive_mix" : [
+                    0,
+                    0,
+                    0
+                ],
+                "msfs_color_alpha_mix" : 1,
+                "msfs_day_night_cycle" : 0,
+                "msfs_collision_material" : 1,
+                "msfs_road_material" : 1
+            },
+            "name" : "windowframe",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6113804578781128,
+                    0.5753329992294312,
+                    0.4747638702392578,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.11736299842596054
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extensions" : {
+                "ASOBO_tags" : {
+                    "tags" : [
+                        "Road"
+                    ],
+                    "Collision" : true
+                }
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_albedo_texture" : {
+                    "name" : "schbehmp_2K_Albedo.png",
+                    "type" : "Image"
+                },
+                "msfs_metallic_texture" : {
+                    "name" : "schbehmp_2K_Roughness.png",
+                    "type" : "Image"
+                },
+                "msfs_normal_texture" : {
+                    "name" : "schbehmp_2K_Normal.png",
+                    "type" : "Image"
+                },
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_collision_material" : 1,
+                "msfs_road_material" : 1
+            },
+            "name" : "bluedoors",
+            "normalTexture" : {
+                "index" : 8,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 9,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 10,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 9,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_color_albedo_mix" : [
+                    0.011088035069406033,
+                    0.011088035069406033,
+                    0.011088035069406033
+                ]
+            },
+            "name" : "darkwindows",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.011088035069406033,
+                    0.011088035069406033,
+                    0.011088035069406033,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "extensions" : {
+                "ASOBO_tags" : {
+                    "Collision" : true
+                }
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_color_albedo_mix" : [
+                    0.005801372695714235,
+                    0.007642081007361412,
+                    0.04202834889292717
+                ],
+                "msfs_road_material" : 0,
+                "msfs_collision_material" : 1
+            },
+            "name" : "doorframe",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.005801372695714235,
+                    0.007642081007361412,
+                    0.04202834889292717,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "emissiveTexture" : {
+                "index" : 11,
+                "texCoord" : 0
+            },
+            "extensions" : {
+                "ASOBO_tags" : {
+                    "Collision" : true
+                }
+            },
+            "extras" : {
+                "msfs_material_mode" : 1,
+                "msfs_albedo_texture" : {
+                    "name" : "white_rough_plaster_AO_2k.jpg",
+                    "type" : "Image"
+                },
+                "msfs_metallic_texture" : {
+                    "name" : "white_rough_plaster_rough_2k.jpg",
+                    "type" : "Image"
+                },
+                "msfs_normal_texture" : {
+                    "name" : "white_rough_plaster_nor_2k.jpg",
+                    "type" : "Image"
+                },
+                "msfs_emissive_texture" : {
+                    "name" : "white_rough_plaster_Disp_2k.jpg",
+                    "type" : "Image"
+                },
+                "msfs_show_tint" : 1,
+                "msfs_show_sss_color" : 0,
+                "msfs_show_glass_parameters" : 0,
+                "msfs_show_decal_parameters" : 0,
+                "msfs_show_fresnel_parameters" : 0,
+                "msfs_show_parallax_parameters" : 0,
+                "msfs_show_geo_decal_parameters" : 0,
+                "msfs_show_albedo" : 1,
+                "msfs_show_metallic" : 1,
+                "msfs_show_normal" : 1,
+                "msfs_show_emissive" : 1,
+                "msfs_show_detail_albedo" : 1,
+                "msfs_show_detail_metallic" : 1,
+                "msfs_show_detail_normal" : 1,
+                "msfs_show_blend_mask" : 1,
+                "msfs_show_anisotropic_direction" : 0,
+                "msfs_show_clearcoat" : 0,
+                "msfs_show_behind_glass" : 0,
+                "msfs_show_blend_mode" : 1,
+                "msfs_show_draworder" : 1,
+                "msfs_show_no_cast_shadow" : 1,
+                "msfs_show_double_sided" : 1,
+                "msfs_show_responsive_aa" : 0,
+                "msfs_show_day_night_cycle" : 1,
+                "msfs_show_collision_material" : 1,
+                "msfs_show_road_material" : 1,
+                "msfs_show_ao_use_uv2" : 1,
+                "msfs_show_uv_clamp" : 1,
+                "msfs_show_alpha_cutoff" : 1,
+                "msfs_show_blend_threshold" : 1,
+                "msfs_collision_material" : 1,
+                "msfs_road_material" : 0
+            },
+            "name" : "whitewall",
+            "normalTexture" : {
+                "index" : 12,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 13,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 14,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 13,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "tower",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 3
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "indices" : 19,
+                    "material" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "indices" : 23,
+                    "material" : 5
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 24,
+                        "NORMAL" : 25,
+                        "TEXCOORD_0" : 26
+                    },
+                    "indices" : 27,
+                    "material" : 6
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 28,
+                        "NORMAL" : 29,
+                        "TEXCOORD_0" : 30
+                    },
+                    "indices" : 31,
+                    "material" : 7
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 32,
+                        "NORMAL" : 33,
+                        "TEXCOORD_0" : 34
+                    },
+                    "indices" : 35,
+                    "material" : 8
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 36,
+                        "NORMAL" : 37,
+                        "TEXCOORD_0" : 38
+                    },
+                    "indices" : 39,
+                    "material" : 9
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        },
+        {
+            "source" : 4
+        },
+        {
+            "source" : 5
+        },
+        {
+            "source" : 6
+        },
+        {
+            "source" : 7
+        },
+        {
+            "source" : 8
+        },
+        {
+            "source" : 9
+        },
+        {
+            "source" : 10
+        },
+        {
+            "source" : 11
+        },
+        {
+            "source" : 12
+        },
+        {
+            "source" : 13
+        },
+        {
+            "source" : 14
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "asphalt_02_diff_2k",
+            "uri" : "asphalt_02_diff_2k.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ulmlbijg_2K_Normal",
+            "uri" : "ulmlbijg_2K_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ulmlbijg_2K_Roughness",
+            "uri" : "ulmlbijg_2K_Roughness.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "ulmlbijg_2K_Albedo",
+            "uri" : "ulmlbijg_2K_Albedo.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "scksebop_2K_Gloss",
+            "uri" : "scksebop_2K_Gloss.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "scksebop_2K_Normal",
+            "uri" : "scksebop_2K_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "scksebop_2K_Roughness",
+            "uri" : "scksebop_2K_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "scksebop_2K_Albedo",
+            "uri" : "scksebop_2K_Albedo.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "schbehmp_2K_Normal",
+            "uri" : "schbehmp_2K_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "schbehmp_2K_Roughness",
+            "uri" : "schbehmp_2K_Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "schbehmp_2K_Albedo",
+            "uri" : "schbehmp_2K_Albedo.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "white_rough_plaster_Disp_2k",
+            "uri" : "white_rough_plaster_Disp_2k.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "white_rough_plaster_nor_2k",
+            "uri" : "white_rough_plaster_nor_2k.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "white_rough_plaster_rough_2k",
+            "uri" : "white_rough_plaster_rough_2k.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "white_rough_plaster_AO_2k",
+            "uri" : "white_rough_plaster_AO_2k.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3705,
+            "max" : [
+                18.843826293945312,
+                23.17240333557129,
+                0.08691930770874023
+            ],
+            "min" : [
+                -20.302297592163086,
+                -13.462919235229492,
+                -18.284500122070312
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3705,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3705,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5316,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1066,
+            "max" : [
+                18.899642944335938,
+                23.17240333557129,
+                -3.7057883739471436
+            ],
+            "min" : [
+                -20.59868812561035,
+                -13.484977722167969,
+                -19.00723648071289
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1066,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1066,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 1215,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 660,
+            "max" : [
+                18.776430130004883,
+                22.854028701782227,
+                -0.892704963684082
+            ],
+            "min" : [
+                -20.172380447387695,
+                -13.391683578491211,
+                -18.312923431396484
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 660,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 660,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 864,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 532,
+            "max" : [
+                14.369532585144043,
+                16.26605796813965,
+                0.06304597854614258
+            ],
+            "min" : [
+                -20.423105239868164,
+                -9.976236343383789,
+                -9.409778594970703
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 532,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 532,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 894,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 2562,
+            "max" : [
+                14.369999885559082,
+                13.758094787597656,
+                -4.927970886230469
+            ],
+            "min" : [
+                -0.3846827745437622,
+                -12.181516647338867,
+                -11.359979629516602
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 2562,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 2562,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5123,
+            "count" : 2838,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 6633,
+            "max" : [
+                18.85539436340332,
+                22.940549850463867,
+                -0.8092541694641113
+            ],
+            "min" : [
+                -20.302297592163086,
+                -13.473382949829102,
+                -18.74924659729004
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 6633,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 6633,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5123,
+            "count" : 8775,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 186,
+            "max" : [
+                14.38491439819336,
+                23.055513381958008,
+                0.0701909065246582
+            ],
+            "min" : [
+                -4.773426055908203,
+                -7.35003662109375,
+                -9.402438163757324
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5126,
+            "count" : 186,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 186,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5123,
+            "count" : 276,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 40,
+            "max" : [
+                14.383959770202637,
+                23.055315017700195,
+                -1.5970960855484009
+            ],
+            "min" : [
+                -0.49181777238845825,
+                -9.96955394744873,
+                -8.476960182189941
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5123,
+            "count" : 60,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5126,
+            "count" : 205,
+            "max" : [
+                14.443507194519043,
+                23.09410285949707,
+                0.08691930770874023
+            ],
+            "min" : [
+                -0.5748552083969116,
+                -10.02503776550293,
+                -8.600126266479492
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 33,
+            "componentType" : 5126,
+            "count" : 205,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 34,
+            "componentType" : 5126,
+            "count" : 205,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 35,
+            "componentType" : 5123,
+            "count" : 327,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 36,
+            "componentType" : 5126,
+            "count" : 1885,
+            "max" : [
+                18.776430130004883,
+                23.09410285949707,
+                0.08616876602172852
+            ],
+            "min" : [
+                -20.4093074798584,
+                -13.398134231567383,
+                -13.279495239257812
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 37,
+            "componentType" : 5126,
+            "count" : 1885,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 38,
+            "componentType" : 5126,
+            "count" : 1885,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 39,
+            "componentType" : 5123,
+            "count" : 2937,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 44460,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 44460,
+            "byteOffset" : 44460
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29640,
+            "byteOffset" : 88920
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10632,
+            "byteOffset" : 118560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12792,
+            "byteOffset" : 129192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12792,
+            "byteOffset" : 141984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8528,
+            "byteOffset" : 154776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2430,
+            "byteOffset" : 163304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7920,
+            "byteOffset" : 165736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7920,
+            "byteOffset" : 173656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5280,
+            "byteOffset" : 181576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1728,
+            "byteOffset" : 186856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6384,
+            "byteOffset" : 188584
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6384,
+            "byteOffset" : 194968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4256,
+            "byteOffset" : 201352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1788,
+            "byteOffset" : 205608
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30744,
+            "byteOffset" : 207396
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30744,
+            "byteOffset" : 238140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20496,
+            "byteOffset" : 268884
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5676,
+            "byteOffset" : 289380
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 79596,
+            "byteOffset" : 295056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 79596,
+            "byteOffset" : 374652
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53064,
+            "byteOffset" : 454248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17550,
+            "byteOffset" : 507312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2232,
+            "byteOffset" : 524864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2232,
+            "byteOffset" : 527096
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1488,
+            "byteOffset" : 529328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 552,
+            "byteOffset" : 530816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 531368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 531848
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 320,
+            "byteOffset" : 532328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120,
+            "byteOffset" : 532648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2460,
+            "byteOffset" : 532768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2460,
+            "byteOffset" : 535228
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1640,
+            "byteOffset" : 537688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 654,
+            "byteOffset" : 539328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22620,
+            "byteOffset" : 539984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22620,
+            "byteOffset" : 562604
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15080,
+            "byteOffset" : 585224
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5874,
+            "byteOffset" : 600304
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 606180,
+            "uri" : "eghhtower.bin"
+        }
+    ]
+}

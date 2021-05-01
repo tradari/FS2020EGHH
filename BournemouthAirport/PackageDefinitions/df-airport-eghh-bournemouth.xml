@@ -1,0 +1,39 @@
+<AssetPackage Name="df-airport-eghh-bournemouth" Version="0.8.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Bournemouth Airport</Title>
+		<Manufacturer/>
+		<Creator>Tradari</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\df-airport-eghh-bournemouth\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\df-airport-eghh-bournemouth\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="EGHHAirport">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\data\</AssetDir>
+			<OutputDir>scenery\global\scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="eghhassets">
+			<Type>ArtProj</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\modelLib\</AssetDir>
+			<OutputDir>scenery\global\scenery\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
